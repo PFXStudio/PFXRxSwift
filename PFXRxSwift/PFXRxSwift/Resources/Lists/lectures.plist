@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>HelloRxSwift</string>
+		<key>identifier</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Observables</string>
+		<key>identifier</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Subjects</string>
+		<key>identifier</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>ObservablesAndSubjectsInPractice</string>
+		<key>identifier</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Filtering Operators</string>
+		<key>identifier</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Filtering Operators in Practice</string>
+		<key>identifier</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Transforming Operators</string>
+		<key>identifier</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Transforming Operators in Practice</string>
+		<key>identifier</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Combining Operators</string>
+		<key>identifier</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Combining Operators in Practice</string>
+		<key>identifier</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Time Based Operators</string>
+		<key>identifier</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Beginning RxCocoa</string>
+		<key>identifier</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Intermediate RxCocoa</string>
+		<key>identifier</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Error Handling in Practice</string>
+		<key>identifier</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Creating Custom Reactive Extensions</string>
+		<key>identifier</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>MVVM with RxSwift</string>
+		<key>identifier</key>
+		<string></string>
+	</dict>
+</array>
+</plist>
