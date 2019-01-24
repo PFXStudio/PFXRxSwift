@@ -21,6 +21,22 @@
 		D22A6ED621ED791300A865DC /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22A6ED521ED791300A865DC /* MainTableViewController.swift */; };
 		D22A6ED821ED795D00A865DC /* lectures.plist in Resources */ = {isa = PBXBuildFile; fileRef = D22A6ED721ED795D00A865DC /* lectures.plist */; };
 		D22A6EDA21ED7A8900A865DC /* lectures.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D22A6ED921ED7A8900A865DC /* lectures.storyboard */; };
+		D277F02821F83D0C000D468F /* Lecture01ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D277F02721F83D0C000D468F /* Lecture01ViewController.swift */; };
+		D2D5594921F98AF3008112F9 /* Lecture04ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D5593A21F98AF1008112F9 /* Lecture04ViewController.swift */; };
+		D2D5594A21F98AF3008112F9 /* Lecture09ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D5593B21F98AF1008112F9 /* Lecture09ViewController.swift */; };
+		D2D5594B21F98AF3008112F9 /* Lecture13ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D5593C21F98AF1008112F9 /* Lecture13ViewController.swift */; };
+		D2D5594C21F98AF3008112F9 /* Lecture08ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D5593D21F98AF1008112F9 /* Lecture08ViewController.swift */; };
+		D2D5594D21F98AF3008112F9 /* Lecture05ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D5593E21F98AF2008112F9 /* Lecture05ViewController.swift */; };
+		D2D5594E21F98AF3008112F9 /* Lecture15ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D5593F21F98AF2008112F9 /* Lecture15ViewController.swift */; };
+		D2D5594F21F98AF3008112F9 /* Lecture07ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D5594021F98AF2008112F9 /* Lecture07ViewController.swift */; };
+		D2D5595021F98AF3008112F9 /* Lecture10ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D5594121F98AF2008112F9 /* Lecture10ViewController.swift */; };
+		D2D5595121F98AF3008112F9 /* Lecture11ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D5594221F98AF2008112F9 /* Lecture11ViewController.swift */; };
+		D2D5595221F98AF3008112F9 /* Lecture12ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D5594321F98AF2008112F9 /* Lecture12ViewController.swift */; };
+		D2D5595321F98AF3008112F9 /* Lecture16ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D5594421F98AF2008112F9 /* Lecture16ViewController.swift */; };
+		D2D5595421F98AF3008112F9 /* Lecture02ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D5594521F98AF2008112F9 /* Lecture02ViewController.swift */; };
+		D2D5595521F98AF3008112F9 /* Lecture06ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D5594621F98AF2008112F9 /* Lecture06ViewController.swift */; };
+		D2D5595621F98AF3008112F9 /* Lecture14ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D5594721F98AF2008112F9 /* Lecture14ViewController.swift */; };
+		D2D5595721F98AF3008112F9 /* Lecture03ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D5594821F98AF3008112F9 /* Lecture03ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +81,22 @@
 		D22A6ED521ED791300A865DC /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
 		D22A6ED721ED795D00A865DC /* lectures.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = lectures.plist; sourceTree = "<group>"; };
 		D22A6ED921ED7A8900A865DC /* lectures.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = lectures.storyboard; sourceTree = "<group>"; };
+		D277F02721F83D0C000D468F /* Lecture01ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lecture01ViewController.swift; sourceTree = "<group>"; };
+		D2D5593A21F98AF1008112F9 /* Lecture04ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lecture04ViewController.swift; sourceTree = "<group>"; };
+		D2D5593B21F98AF1008112F9 /* Lecture09ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lecture09ViewController.swift; sourceTree = "<group>"; };
+		D2D5593C21F98AF1008112F9 /* Lecture13ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lecture13ViewController.swift; sourceTree = "<group>"; };
+		D2D5593D21F98AF1008112F9 /* Lecture08ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lecture08ViewController.swift; sourceTree = "<group>"; };
+		D2D5593E21F98AF2008112F9 /* Lecture05ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lecture05ViewController.swift; sourceTree = "<group>"; };
+		D2D5593F21F98AF2008112F9 /* Lecture15ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lecture15ViewController.swift; sourceTree = "<group>"; };
+		D2D5594021F98AF2008112F9 /* Lecture07ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lecture07ViewController.swift; sourceTree = "<group>"; };
+		D2D5594121F98AF2008112F9 /* Lecture10ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lecture10ViewController.swift; sourceTree = "<group>"; };
+		D2D5594221F98AF2008112F9 /* Lecture11ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lecture11ViewController.swift; sourceTree = "<group>"; };
+		D2D5594321F98AF2008112F9 /* Lecture12ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lecture12ViewController.swift; sourceTree = "<group>"; };
+		D2D5594421F98AF2008112F9 /* Lecture16ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lecture16ViewController.swift; sourceTree = "<group>"; };
+		D2D5594521F98AF2008112F9 /* Lecture02ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lecture02ViewController.swift; sourceTree = "<group>"; };
+		D2D5594621F98AF2008112F9 /* Lecture06ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lecture06ViewController.swift; sourceTree = "<group>"; };
+		D2D5594721F98AF2008112F9 /* Lecture14ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lecture14ViewController.swift; sourceTree = "<group>"; };
+		D2D5594821F98AF3008112F9 /* Lecture03ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lecture03ViewController.swift; sourceTree = "<group>"; };
 		EBA3746065C5EBC8EF114805 /* Pods_PFXRxSwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PFXRxSwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD67374006DF3DE56EF89CC0 /* Pods-PFXRxSwiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PFXRxSwiftUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PFXRxSwiftUITests/Pods-PFXRxSwiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -213,6 +245,22 @@
 			isa = PBXGroup;
 			children = (
 				D22A6ED921ED7A8900A865DC /* lectures.storyboard */,
+				D277F02721F83D0C000D468F /* Lecture01ViewController.swift */,
+				D2D5594521F98AF2008112F9 /* Lecture02ViewController.swift */,
+				D2D5594821F98AF3008112F9 /* Lecture03ViewController.swift */,
+				D2D5593A21F98AF1008112F9 /* Lecture04ViewController.swift */,
+				D2D5593E21F98AF2008112F9 /* Lecture05ViewController.swift */,
+				D2D5594621F98AF2008112F9 /* Lecture06ViewController.swift */,
+				D2D5594021F98AF2008112F9 /* Lecture07ViewController.swift */,
+				D2D5593D21F98AF1008112F9 /* Lecture08ViewController.swift */,
+				D2D5593B21F98AF1008112F9 /* Lecture09ViewController.swift */,
+				D2D5594121F98AF2008112F9 /* Lecture10ViewController.swift */,
+				D2D5594221F98AF2008112F9 /* Lecture11ViewController.swift */,
+				D2D5594321F98AF2008112F9 /* Lecture12ViewController.swift */,
+				D2D5593C21F98AF1008112F9 /* Lecture13ViewController.swift */,
+				D2D5594721F98AF2008112F9 /* Lecture14ViewController.swift */,
+				D2D5593F21F98AF2008112F9 /* Lecture15ViewController.swift */,
+				D2D5594421F98AF2008112F9 /* Lecture16ViewController.swift */,
 			);
 			path = LectureControllers;
 			sourceTree = "<group>";
@@ -443,10 +491,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2D5595021F98AF3008112F9 /* Lecture10ViewController.swift in Sources */,
+				D2D5594D21F98AF3008112F9 /* Lecture05ViewController.swift in Sources */,
+				D2D5595621F98AF3008112F9 /* Lecture14ViewController.swift in Sources */,
+				D2D5595321F98AF3008112F9 /* Lecture16ViewController.swift in Sources */,
+				D2D5594A21F98AF3008112F9 /* Lecture09ViewController.swift in Sources */,
+				D2D5594F21F98AF3008112F9 /* Lecture07ViewController.swift in Sources */,
 				D22A6ED621ED791300A865DC /* MainTableViewController.swift in Sources */,
+				D2D5595121F98AF3008112F9 /* Lecture11ViewController.swift in Sources */,
+				D2D5594E21F98AF3008112F9 /* Lecture15ViewController.swift in Sources */,
+				D2D5595421F98AF3008112F9 /* Lecture02ViewController.swift in Sources */,
 				D22A6E9F21ED6A8B00A865DC /* ViewController.swift in Sources */,
 				D22A6E9D21ED6A8B00A865DC /* AppDelegate.swift in Sources */,
+				D2D5595521F98AF3008112F9 /* Lecture06ViewController.swift in Sources */,
+				D2D5594C21F98AF3008112F9 /* Lecture08ViewController.swift in Sources */,
+				D2D5595721F98AF3008112F9 /* Lecture03ViewController.swift in Sources */,
+				D2D5594921F98AF3008112F9 /* Lecture04ViewController.swift in Sources */,
+				D277F02821F83D0C000D468F /* Lecture01ViewController.swift in Sources */,
 				D22A6EA521ED6A8B00A865DC /* PFXRxSwift.xcdatamodeld in Sources */,
+				D2D5595221F98AF3008112F9 /* Lecture12ViewController.swift in Sources */,
+				D2D5594B21F98AF3008112F9 /* Lecture13ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

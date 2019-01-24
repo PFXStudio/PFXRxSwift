@@ -10,7 +10,6 @@ import XCTest
 @testable import PFXRxSwift
 
 class PFXRxSwiftTests: XCTestCase {
-
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
     }
@@ -30,5 +29,4 @@ class PFXRxSwiftTests: XCTestCase {
             // Put the code you want to measure the time of here.
         }
     }
-
 }

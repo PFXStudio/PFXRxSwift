@@ -50,7 +50,8 @@ class MainTableViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         if let dict = self.lists[indexPath.row] as? NSDictionary {
-            print(dict.object(forKey: "identifier") as! String)
+            let viewController = UIStoryboard.init(name: "lectures", bundle: nil).instantiateViewController(withIdentifier: dict.object(forKey: "identifier") as! String)
+            self.navigationController?.pushViewController(viewController, animated: true)
         }
     }
 

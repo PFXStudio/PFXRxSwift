@@ -6,97 +6,97 @@
 		<key>title</key>
 		<string>HelloRxSwift</string>
 		<key>identifier</key>
-		<string></string>
+		<string>Lecture01ViewController</string>
 	</dict>
 	<dict>
 		<key>title</key>
 		<string>Observables</string>
 		<key>identifier</key>
-		<string></string>
+		<string>Lecture02ViewController</string>
 	</dict>
 	<dict>
 		<key>title</key>
 		<string>Subjects</string>
 		<key>identifier</key>
-		<string></string>
+		<string>Lecture03ViewController</string>
 	</dict>
 	<dict>
 		<key>title</key>
 		<string>ObservablesAndSubjectsInPractice</string>
 		<key>identifier</key>
-		<string></string>
+		<string>Lecture04ViewController</string>
 	</dict>
 	<dict>
 		<key>title</key>
 		<string>Filtering Operators</string>
 		<key>identifier</key>
-		<string></string>
+		<string>Lecture05ViewController</string>
 	</dict>
 	<dict>
 		<key>title</key>
 		<string>Filtering Operators in Practice</string>
 		<key>identifier</key>
-		<string></string>
+		<string>Lecture06ViewController</string>
 	</dict>
 	<dict>
 		<key>title</key>
 		<string>Transforming Operators</string>
 		<key>identifier</key>
-		<string></string>
+		<string>Lecture07ViewController</string>
 	</dict>
 	<dict>
 		<key>title</key>
 		<string>Transforming Operators in Practice</string>
 		<key>identifier</key>
-		<string></string>
+		<string>Lecture08ViewController</string>
 	</dict>
 	<dict>
 		<key>title</key>
 		<string>Combining Operators</string>
 		<key>identifier</key>
-		<string></string>
+		<string>Lecture09ViewController</string>
 	</dict>
 	<dict>
 		<key>title</key>
 		<string>Combining Operators in Practice</string>
 		<key>identifier</key>
-		<string></string>
+		<string>Lecture10ViewController</string>
 	</dict>
 	<dict>
 		<key>title</key>
 		<string>Time Based Operators</string>
 		<key>identifier</key>
-		<string></string>
+		<string>Lecture11ViewController</string>
 	</dict>
 	<dict>
 		<key>title</key>
 		<string>Beginning RxCocoa</string>
 		<key>identifier</key>
-		<string></string>
+		<string>Lecture12ViewController</string>
 	</dict>
 	<dict>
 		<key>title</key>
 		<string>Intermediate RxCocoa</string>
 		<key>identifier</key>
-		<string></string>
+		<string>Lecture13ViewController</string>
 	</dict>
 	<dict>
 		<key>title</key>
 		<string>Error Handling in Practice</string>
 		<key>identifier</key>
-		<string></string>
+		<string>Lecture14ViewController</string>
 	</dict>
 	<dict>
 		<key>title</key>
 		<string>Creating Custom Reactive Extensions</string>
 		<key>identifier</key>
-		<string></string>
+		<string>Lecture15ViewController</string>
 	</dict>
 	<dict>
 		<key>title</key>
 		<string>MVVM with RxSwift</string>
 		<key>identifier</key>
-		<string></string>
+		<string>Lecture16ViewController</string>
 	</dict>
 </array>
 </plist>

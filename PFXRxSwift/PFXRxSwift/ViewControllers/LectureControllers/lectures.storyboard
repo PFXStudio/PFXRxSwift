@@ -1,7 +1,254 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13142" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12042"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
-    <scenes/>
+    <scenes>
+        <!--Lecture01 View Controller-->
+        <scene sceneID="rpW-n0-ZtV">
+            <objects>
+                <viewController storyboardIdentifier="Lecture01ViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="zLY-TF-FsN" customClass="Lecture01ViewController" customModule="PFXRxSwift" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8hM-Vz-854">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="TIo-Tq-6IW"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="28C-8N-Dwx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-98" y="61"/>
+        </scene>
+        <!--Lecture02 View Controller-->
+        <scene sceneID="TkZ-f7-xmi">
+            <objects>
+                <viewController storyboardIdentifier="Lecture02ViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="tIc-aA-i1Q" customClass="Lecture02ViewController" customModule="PFXRxSwift" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jjD-tF-qDS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="7mI-BT-N6D"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9fX-5f-aiV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="567" y="61"/>
+        </scene>
+        <!--Lecture03 View Controller-->
+        <scene sceneID="cxj-Sd-tjP">
+            <objects>
+                <viewController storyboardIdentifier="Lecture03ViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="sdx-2d-LeK" customClass="Lecture03ViewController" customModule="PFXRxSwift" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="eey-It-u0f">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="vx0-gU-2me"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yQQ-zv-jje" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1228" y="61"/>
+        </scene>
+        <!--Lecture04 View Controller-->
+        <scene sceneID="cVw-Gp-ZnJ">
+            <objects>
+                <viewController storyboardIdentifier="Lecture04ViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="VF6-1R-CTe" customClass="Lecture04ViewController" customModule="PFXRxSwift" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="u6V-HF-3UV">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="zbV-zX-YI3"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wCM-46-stO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-98" y="724"/>
+        </scene>
+        <!--Lecture05 View Controller-->
+        <scene sceneID="gLl-TY-Hve">
+            <objects>
+                <viewController storyboardIdentifier="Lecture05ViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="NA7-QN-ZZ2" customClass="Lecture05ViewController" customModule="PFXRxSwift" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="S8w-lz-FfW">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="1S1-QF-4Zo"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PkP-2w-wSf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="566" y="724"/>
+        </scene>
+        <!--Lecture06 View Controller-->
+        <scene sceneID="dG7-HY-Pz7">
+            <objects>
+                <viewController storyboardIdentifier="Lecture06ViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="KzY-8v-2Ev" customClass="Lecture06ViewController" customModule="PFXRxSwift" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="BcF-ad-JMz">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="Sb7-5J-n2v"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BQb-mY-SZy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1228" y="724"/>
+        </scene>
+        <!--Lecture07 View Controller-->
+        <scene sceneID="iPO-pD-48x">
+            <objects>
+                <viewController storyboardIdentifier="Lecture07ViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="aLI-ZA-2tD" customClass="Lecture07ViewController" customModule="PFXRxSwift" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="SQG-lV-m0u">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="m60-Pb-KMI"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qg4-ed-lOd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-98" y="1388"/>
+        </scene>
+        <!--Lecture08 View Controller-->
+        <scene sceneID="8Hz-Qw-W1g">
+            <objects>
+                <viewController storyboardIdentifier="Lecture08ViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="EGi-F2-kge" customClass="Lecture08ViewController" customModule="PFXRxSwift" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="pz2-YI-3aJ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="brb-1s-7hQ"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CVe-Ct-zv6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="566" y="1388"/>
+        </scene>
+        <!--Lecture09 View Controller-->
+        <scene sceneID="044-hT-Dgd">
+            <objects>
+                <viewController storyboardIdentifier="Lecture09ViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="wYT-xu-Dw4" customClass="Lecture09ViewController" customModule="PFXRxSwift" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hHx-HV-lif">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="9Uy-F6-7nq"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="S9w-iY-fk5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1228" y="1388"/>
+        </scene>
+        <!--Lecture10 View Controller-->
+        <scene sceneID="Pk7-GD-JyF">
+            <objects>
+                <viewController storyboardIdentifier="Lecture10ViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="8Ms-Pu-Svb" customClass="Lecture10ViewController" customModule="PFXRxSwift" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qDW-Ht-a5k">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="XQS-p4-EIB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lWx-YQ-LQs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-98" y="2049"/>
+        </scene>
+        <!--Lecture11 View Controller-->
+        <scene sceneID="aoM-BA-Anl">
+            <objects>
+                <viewController storyboardIdentifier="Lecture11ViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="XbB-jj-7v5" customClass="Lecture11ViewController" customModule="PFXRxSwift" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="CBS-Lb-BMR">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="IiM-Nf-7gi"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CuX-qh-WaB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="566" y="2049"/>
+        </scene>
+        <!--Lecture12 View Controller-->
+        <scene sceneID="wKr-Bc-eId">
+            <objects>
+                <viewController storyboardIdentifier="Lecture12ViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="mzQ-oq-DWe" customClass="Lecture12ViewController" customModule="PFXRxSwift" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="D2T-39-U3k">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="GeC-az-cjc"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Hf8-1j-NpB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1228" y="2049"/>
+        </scene>
+        <!--Lecture13 View Controller-->
+        <scene sceneID="eL8-qK-A9r">
+            <objects>
+                <viewController storyboardIdentifier="Lecture13ViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="O9l-Yu-bDd" customClass="Lecture13ViewController" customModule="PFXRxSwift" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="B94-A2-SHH">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="xgQ-vm-NnU"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="keT-ao-vTz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1953" y="61"/>
+        </scene>
+        <!--Lecture14 View Controller-->
+        <scene sceneID="5st-bY-cHl">
+            <objects>
+                <viewController storyboardIdentifier="Lecture14ViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="PxW-No-aas" customClass="Lecture14ViewController" customModule="PFXRxSwift" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="EBd-xO-nv0">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="dcE-5J-CNU"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SQg-qr-1Zh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1953" y="724"/>
+        </scene>
+        <!--Lecture15 View Controller-->
+        <scene sceneID="4ql-vG-IVG">
+            <objects>
+                <viewController storyboardIdentifier="Lecture15ViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="ftb-L7-9FX" customClass="Lecture15ViewController" customModule="PFXRxSwift" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="GCD-d4-eCV">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="V46-tt-HCG"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rJU-LW-Mvz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2633" y="61"/>
+        </scene>
+        <!--Lecture16 View Controller-->
+        <scene sceneID="9fX-Gz-xnh">
+            <objects>
+                <viewController storyboardIdentifier="Lecture16ViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="UvK-7d-Gfp" customClass="Lecture16ViewController" customModule="PFXRxSwift" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="TaI-d5-01g">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="2D6-CA-NyS"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="E9U-pc-zoR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2633" y="724"/>
+        </scene>
+    </scenes>
 </document>
