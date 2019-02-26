@@ -12,17 +12,40 @@ import RxCocoa
 
 class Lecture01ViewController: UIViewController {
 
+    @IBOutlet weak var button: UIButton!
+    
     let timer = Observable<Int>.interval(3.0, scheduler: MainScheduler.instance)
-    let dispaseBag = DisposeBag()
     var index = 0
+    let dispaseBag = DisposeBag()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
         self.timer.bind { (_) in
-            print("onNext")
-        }.disposed(by: self.dispaseBag)
+            print("timer onNext")
+            }.disposed(by: self.dispaseBag)
+
+        
+        self.button!.rx.tap.subscribe(onNext: { [weak self] in
+            print("tap tap")
+            
+            let ob = Observable.of(1, 2, 3)
+            ob.subscribe(onNext: { (value) in
+                print(value)
+            }, onError: { (error) in
+                print(error)
+            }, onCompleted: {
+                print("onCompleted")
+            })
+        }, onError: { (error) in
+            print("onError")
+        }, onCompleted: {
+            print("onCompleted")
+        }, onDisposed: {
+            print("onDisposed")
+        })
+        
+        
     }
     
 
@@ -35,5 +58,4 @@ class Lecture01ViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-
 }

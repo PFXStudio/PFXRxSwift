@@ -17,9 +17,26 @@
                     <view key="view" contentMode="scaleToFill" id="8hM-Vz-854">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3k8-4u-4TH">
+                                <rect key="frame" x="164.5" y="318.5" width="46" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="BSq-Ct-ros"/>
+                                    <constraint firstAttribute="width" constant="46" id="dXV-Vl-Zsj"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="3k8-4u-4TH" firstAttribute="centerY" secondItem="8hM-Vz-854" secondAttribute="centerY" id="sfG-ft-sMU"/>
+                            <constraint firstItem="3k8-4u-4TH" firstAttribute="centerX" secondItem="8hM-Vz-854" secondAttribute="centerX" id="vUo-QJ-F7f"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="TIo-Tq-6IW"/>
                     </view>
+                    <connections>
+                        <outlet property="button" destination="3k8-4u-4TH" id="sfY-71-2Om"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="28C-8N-Dwx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
