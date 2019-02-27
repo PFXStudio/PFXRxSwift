@@ -21,8 +21,8 @@
 		D22A6ED621ED791300A865DC /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22A6ED521ED791300A865DC /* MainTableViewController.swift */; };
 		D22A6ED821ED795D00A865DC /* lectures.plist in Resources */ = {isa = PBXBuildFile; fileRef = D22A6ED721ED795D00A865DC /* lectures.plist */; };
 		D22A6EDA21ED7A8900A865DC /* lectures.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D22A6ED921ED7A8900A865DC /* lectures.storyboard */; };
+		D258E8A322264B0600F646F3 /* test.txt in Resources */ = {isa = PBXBuildFile; fileRef = D258E8A222264B0600F646F3 /* test.txt */; };
 		D277F02821F83D0C000D468F /* Lecture01ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D277F02721F83D0C000D468F /* Lecture01ViewController.swift */; };
-		D2CC3373222522FC00CFAA28 /* test.txt in Resources */ = {isa = PBXBuildFile; fileRef = D2CC3372222522FC00CFAA28 /* test.txt */; };
 		D2D5594921F98AF3008112F9 /* Lecture04ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D5593A21F98AF1008112F9 /* Lecture04ViewController.swift */; };
 		D2D5594A21F98AF3008112F9 /* Lecture09ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D5593B21F98AF1008112F9 /* Lecture09ViewController.swift */; };
 		D2D5594B21F98AF3008112F9 /* Lecture13ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D5593C21F98AF1008112F9 /* Lecture13ViewController.swift */; };
@@ -82,8 +82,8 @@
 		D22A6ED521ED791300A865DC /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
 		D22A6ED721ED795D00A865DC /* lectures.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = lectures.plist; sourceTree = "<group>"; };
 		D22A6ED921ED7A8900A865DC /* lectures.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = lectures.storyboard; sourceTree = "<group>"; };
+		D258E8A222264B0600F646F3 /* test.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.txt; sourceTree = "<group>"; };
 		D277F02721F83D0C000D468F /* Lecture01ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lecture01ViewController.swift; sourceTree = "<group>"; };
-		D2CC3372222522FC00CFAA28 /* test.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = test.txt; path = ../../../../../../../Cordova/hello/platforms/ios/cordova/node_modules/simctl/node_modules/shelljs/test.txt; sourceTree = "<group>"; };
 		D2D5593A21F98AF1008112F9 /* Lecture04ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lecture04ViewController.swift; sourceTree = "<group>"; };
 		D2D5593B21F98AF1008112F9 /* Lecture09ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lecture09ViewController.swift; sourceTree = "<group>"; };
 		D2D5593C21F98AF1008112F9 /* Lecture13ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lecture13ViewController.swift; sourceTree = "<group>"; };
@@ -271,7 +271,7 @@
 		D2CC3371222522F500CFAA28 /* Files */ = {
 			isa = PBXGroup;
 			children = (
-				D2CC3372222522FC00CFAA28 /* test.txt */,
+				D258E8A222264B0600F646F3 /* test.txt */,
 			);
 			path = Files;
 			sourceTree = "<group>";
@@ -388,7 +388,7 @@
 				D22A6EA721ED6A8D00A865DC /* Assets.xcassets in Resources */,
 				D22A6EDA21ED7A8900A865DC /* lectures.storyboard in Resources */,
 				D22A6EA221ED6A8B00A865DC /* Main.storyboard in Resources */,
-				D2CC3373222522FC00CFAA28 /* test.txt in Resources */,
+				D258E8A322264B0600F646F3 /* test.txt in Resources */,
 				D22A6ED821ED795D00A865DC /* lectures.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
