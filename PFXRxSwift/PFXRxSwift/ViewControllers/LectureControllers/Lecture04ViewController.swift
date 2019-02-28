@@ -14,15 +14,20 @@ class Lecture04ViewController: UIViewController {
 
     let timer = Observable<Int>.interval(3.0, scheduler: MainScheduler.instance)
     let dispaseBag = DisposeBag()
-    var index = 0
+    var images = BehaviorRelay<[UIImage]>(value: [])
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        self.timer.bind { (_) in
-            print("onNext")
-        }.disposed(by: self.dispaseBag)
+        
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
+//        let image = UIImage(named: "1.png")
+//        self.images.value.append(image)
     }
     
 
